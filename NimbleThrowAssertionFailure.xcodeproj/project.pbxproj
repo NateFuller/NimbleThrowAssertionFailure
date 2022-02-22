@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F738295EF9D874EA11A230D /* Pods_NimbleThrowAssertionFailureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D72CB413999BA82D0912D41 /* Pods_NimbleThrowAssertionFailureTests.framework */; };
+		6B0B2A8EF2CC6822D656E6F7 /* Pods_NimbleThrowAssertionFailure_NimbleThrowAssertionFailureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68715900D3CE888DDF44BC51 /* Pods_NimbleThrowAssertionFailure_NimbleThrowAssertionFailureUITests.framework */; };
+		7560224F22E1E90613238C64 /* Pods_NimbleThrowAssertionFailure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BA0BB24A1697260AEE368A /* Pods_NimbleThrowAssertionFailure.framework */; };
 		7D14364E27C5680C0053234E /* NimbleThrowAssertionFailureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14364D27C5680C0053234E /* NimbleThrowAssertionFailureApp.swift */; };
 		7D14365027C5680C0053234E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14364F27C5680C0053234E /* ContentView.swift */; };
 		7D14365227C5680D0053234E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D14365127C5680D0053234E /* Assets.xcassets */; };
 		7D14365527C5680D0053234E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D14365427C5680D0053234E /* Preview Assets.xcassets */; };
-		7D14365F27C5680E0053234E /* NimbleThrowAssertionFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14365E27C5680E0053234E /* NimbleThrowAssertionFailureTests.swift */; };
 		7D14366927C5680E0053234E /* NimbleThrowAssertionFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14366827C5680E0053234E /* NimbleThrowAssertionFailureUITests.swift */; };
 		7D14366B27C5680E0053234E /* NimbleThrowAssertionFailureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14366A27C5680E0053234E /* NimbleThrowAssertionFailureUITestsLaunchTests.swift */; };
+		7D14367827C5694E0053234E /* MyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14367727C5694E0053234E /* MyObject.swift */; };
+		7D14367A27C569CE0053234E /* MyObjectSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14367927C569CE0053234E /* MyObjectSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +38,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A10B79E62AD41126AF309C /* Pods-NimbleThrowAssertionFailureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleThrowAssertionFailureTests.release.xcconfig"; path = "Target Support Files/Pods-NimbleThrowAssertionFailureTests/Pods-NimbleThrowAssertionFailureTests.release.xcconfig"; sourceTree = "<group>"; };
+		56B0FA7AD9181A2A2D012372 /* Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.debug.xcconfig"; path = "Target Support Files/Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests/Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68715900D3CE888DDF44BC51 /* Pods_NimbleThrowAssertionFailure_NimbleThrowAssertionFailureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleThrowAssertionFailure_NimbleThrowAssertionFailureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BA0BB24A1697260AEE368A /* Pods_NimbleThrowAssertionFailure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleThrowAssertionFailure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A84B268981FFE3BC6A71B0F /* Pods-NimbleThrowAssertionFailure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleThrowAssertionFailure.debug.xcconfig"; path = "Target Support Files/Pods-NimbleThrowAssertionFailure/Pods-NimbleThrowAssertionFailure.debug.xcconfig"; sourceTree = "<group>"; };
 		7D14364A27C5680C0053234E /* NimbleThrowAssertionFailure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleThrowAssertionFailure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D14364D27C5680C0053234E /* NimbleThrowAssertionFailureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleThrowAssertionFailureApp.swift; sourceTree = "<group>"; };
 		7D14364F27C5680C0053234E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D14365127C5680D0053234E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D14365427C5680D0053234E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D14365A27C5680E0053234E /* NimbleThrowAssertionFailureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleThrowAssertionFailureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D14365E27C5680E0053234E /* NimbleThrowAssertionFailureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleThrowAssertionFailureTests.swift; sourceTree = "<group>"; };
 		7D14366427C5680E0053234E /* NimbleThrowAssertionFailureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleThrowAssertionFailureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D14366827C5680E0053234E /* NimbleThrowAssertionFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleThrowAssertionFailureUITests.swift; sourceTree = "<group>"; };
 		7D14366A27C5680E0053234E /* NimbleThrowAssertionFailureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleThrowAssertionFailureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D14367727C5694E0053234E /* MyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObject.swift; sourceTree = "<group>"; };
+		7D14367927C569CE0053234E /* MyObjectSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObjectSpec.swift; sourceTree = "<group>"; };
+		8D72CB413999BA82D0912D41 /* Pods_NimbleThrowAssertionFailureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleThrowAssertionFailureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3DE365836A5BC4AA6286F9 /* Pods-NimbleThrowAssertionFailureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleThrowAssertionFailureTests.debug.xcconfig"; path = "Target Support Files/Pods-NimbleThrowAssertionFailureTests/Pods-NimbleThrowAssertionFailureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE42BF7813DB7DC279A87FC /* Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.release.xcconfig"; path = "Target Support Files/Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests/Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF47246650053BFA083534FB /* Pods-NimbleThrowAssertionFailure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleThrowAssertionFailure.release.xcconfig"; path = "Target Support Files/Pods-NimbleThrowAssertionFailure/Pods-NimbleThrowAssertionFailure.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7560224F22E1E90613238C64 /* Pods_NimbleThrowAssertionFailure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F738295EF9D874EA11A230D /* Pods_NimbleThrowAssertionFailureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +81,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0B2A8EF2CC6822D656E6F7 /* Pods_NimbleThrowAssertionFailure_NimbleThrowAssertionFailureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75CB25C990E567AAA4D3684E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75BA0BB24A1697260AEE368A /* Pods_NimbleThrowAssertionFailure.framework */,
+				68715900D3CE888DDF44BC51 /* Pods_NimbleThrowAssertionFailure_NimbleThrowAssertionFailureUITests.framework */,
+				8D72CB413999BA82D0912D41 /* Pods_NimbleThrowAssertionFailureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D14364127C5680C0053234E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +105,8 @@
 				7D14365D27C5680E0053234E /* NimbleThrowAssertionFailureTests */,
 				7D14366727C5680E0053234E /* NimbleThrowAssertionFailureUITests */,
 				7D14364B27C5680C0053234E /* Products */,
+				FF39B7D35916ABC669E899E1 /* Pods */,
+				75CB25C990E567AAA4D3684E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +123,9 @@
 		7D14364C27C5680C0053234E /* NimbleThrowAssertionFailure */ = {
 			isa = PBXGroup;
 			children = (
-				7D14364D27C5680C0053234E /* NimbleThrowAssertionFailureApp.swift */,
+				7D14367727C5694E0053234E /* MyObject.swift */,
 				7D14364F27C5680C0053234E /* ContentView.swift */,
+				7D14364D27C5680C0053234E /* NimbleThrowAssertionFailureApp.swift */,
 				7D14365127C5680D0053234E /* Assets.xcassets */,
 				7D14365327C5680D0053234E /* Preview Content */,
 			);
@@ -113,7 +143,7 @@
 		7D14365D27C5680E0053234E /* NimbleThrowAssertionFailureTests */ = {
 			isa = PBXGroup;
 			children = (
-				7D14365E27C5680E0053234E /* NimbleThrowAssertionFailureTests.swift */,
+				7D14367927C569CE0053234E /* MyObjectSpec.swift */,
 			);
 			path = NimbleThrowAssertionFailureTests;
 			sourceTree = "<group>";
@@ -127,6 +157,19 @@
 			path = NimbleThrowAssertionFailureUITests;
 			sourceTree = "<group>";
 		};
+		FF39B7D35916ABC669E899E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A84B268981FFE3BC6A71B0F /* Pods-NimbleThrowAssertionFailure.debug.xcconfig */,
+				BF47246650053BFA083534FB /* Pods-NimbleThrowAssertionFailure.release.xcconfig */,
+				56B0FA7AD9181A2A2D012372 /* Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.debug.xcconfig */,
+				ACE42BF7813DB7DC279A87FC /* Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.release.xcconfig */,
+				9F3DE365836A5BC4AA6286F9 /* Pods-NimbleThrowAssertionFailureTests.debug.xcconfig */,
+				03A10B79E62AD41126AF309C /* Pods-NimbleThrowAssertionFailureTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D14366E27C5680E0053234E /* Build configuration list for PBXNativeTarget "NimbleThrowAssertionFailure" */;
 			buildPhases = (
+				B54F1FE676B1388637D15071 /* [CP] Check Pods Manifest.lock */,
 				7D14364627C5680C0053234E /* Sources */,
 				7D14364727C5680C0053234E /* Frameworks */,
 				7D14364827C5680C0053234E /* Resources */,
@@ -151,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D14367127C5680E0053234E /* Build configuration list for PBXNativeTarget "NimbleThrowAssertionFailureTests" */;
 			buildPhases = (
+				1C18D734DA768266D5DAF9B0 /* [CP] Check Pods Manifest.lock */,
 				7D14365627C5680E0053234E /* Sources */,
 				7D14365727C5680E0053234E /* Frameworks */,
 				7D14365827C5680E0053234E /* Resources */,
+				F16AFEFE8DCBE046A37620AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D14367427C5680E0053234E /* Build configuration list for PBXNativeTarget "NimbleThrowAssertionFailureUITests" */;
 			buildPhases = (
+				F312C46862F38FA6F6876C66 /* [CP] Check Pods Manifest.lock */,
 				7D14366027C5680E0053234E /* Sources */,
 				7D14366127C5680E0053234E /* Frameworks */,
 				7D14366227C5680E0053234E /* Resources */,
@@ -252,12 +299,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C18D734DA768266D5DAF9B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimbleThrowAssertionFailureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54F1FE676B1388637D15071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimbleThrowAssertionFailure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16AFEFE8DCBE046A37620AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NimbleThrowAssertionFailureTests/Pods-NimbleThrowAssertionFailureTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NimbleThrowAssertionFailureTests/Pods-NimbleThrowAssertionFailureTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NimbleThrowAssertionFailureTests/Pods-NimbleThrowAssertionFailureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F312C46862F38FA6F6876C66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D14364627C5680C0053234E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D14365027C5680C0053234E /* ContentView.swift in Sources */,
+				7D14367827C5694E0053234E /* MyObject.swift in Sources */,
 				7D14364E27C5680C0053234E /* NimbleThrowAssertionFailureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D14365F27C5680E0053234E /* NimbleThrowAssertionFailureTests.swift in Sources */,
+				7D14367A27C569CE0053234E /* MyObjectSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +547,7 @@
 		};
 		7D14366F27C5680E0053234E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A84B268981FFE3BC6A71B0F /* Pods-NimbleThrowAssertionFailure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +576,7 @@
 		};
 		7D14367027C5680E0053234E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF47246650053BFA083534FB /* Pods-NimbleThrowAssertionFailure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,8 +605,8 @@
 		};
 		7D14367227C5680E0053234E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3DE365836A5BC4AA6286F9 /* Pods-NimbleThrowAssertionFailureTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -488,8 +624,8 @@
 		};
 		7D14367327C5680E0053234E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A10B79E62AD41126AF309C /* Pods-NimbleThrowAssertionFailureTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -507,6 +643,7 @@
 		};
 		7D14367527C5680E0053234E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B0FA7AD9181A2A2D012372 /* Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +661,7 @@
 		};
 		7D14367627C5680E0053234E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE42BF7813DB7DC279A87FC /* Pods-NimbleThrowAssertionFailure-NimbleThrowAssertionFailureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
